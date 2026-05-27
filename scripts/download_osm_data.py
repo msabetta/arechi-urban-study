@@ -15,7 +15,7 @@ def prepare_for_gpkg(gdf):
             gdf[col] = gdf[col].apply(lambda x: str(x) if isinstance(x, list) else x)
     return gdf
 
-def main():
+def download_osm_data_arechi():
     # Coordinate centrate sullo Stadio Arechi e Piazzale Gipo Viani
     center_point = (40.6278, 14.8297) 
     # Raggio di ricerca in metri (1.2 km copre abbondantemente piazzale, stazione e svincoli)
@@ -64,4 +64,5 @@ def main():
     print(f"\nOperazione completata! I file .gpkg sono in:\n{os.path.abspath(output_dir)}")
 
 if __name__ == "__main__":
-    main()
+    print("Avvio del download dei dati OpenStreetMap per l'area Arechi...")
+    download_osm_data_arechi()
