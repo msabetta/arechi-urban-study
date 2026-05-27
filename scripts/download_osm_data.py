@@ -16,9 +16,9 @@ def prepare_for_gpkg(gdf):
     return gdf
 
 def main():
-    # Coordinate centrate approssimativamente sullo Stadio Arechi
-    center_point = (40.6406, 14.8242) 
-    # Raggio di ricerca in metri (1.2 km copre abbondantemente piazzale e stazione)
+    # Coordinate centrate sullo Stadio Arechi e Piazzale Gipo Viani
+    center_point = (40.6278, 14.8297) 
+    # Raggio di ricerca in metri (1.2 km copre abbondantemente piazzale, stazione e svincoli)
     dist = 1200 
 
     # Creiamo la cartella di output
