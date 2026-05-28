@@ -1,61 +1,59 @@
-# Concept Design: Rigenerazione Urbana del Piazzale Gipo Viani
+# Concept Design: Urban Regeneration of Gipo Viani Square
 
-Questo documento illustra la proposta di concept design per la riqualificazione e valorizzazione dell'area antistante lo Stadio Arechi (Piazzale Gipo Viani) a Salerno.
+This document presents the concept design proposal for the regeneration and valorisation of the area in front of the Arechi Stadium (Gipo Viani Square) in Salerno.
 
-## 1. Vision Generale
+## 1. General Vision
 
-Attualmente, il Piazzale Gipo Viani è un'immensa distesa di asfalto impermeabile (circa 65.000 mq), utilizzata quasi esclusivamente come parcheggio durante le partite casalinghe dell'U.S. Salernitana 1919 o per eventi sporadici. Negli altri giorni si presenta come un vuoto urbano degradato, che accentua l'effetto isola di calore.
-La proposta punta a trasformare quest'area in un **Hub Multimodale Verde ed Energetico**, attivo 365 giorni all'anno.
+Currently, Gipo Viani Square is an extensive impermeable asphalt surface (about 65,000 m²) used almost exclusively as a parking lot during home matches of U.S. Salernitana 1919 or occasional events. On other days it appears as a degraded urban void, amplifying the heat‑island effect.
+
+The proposal aims to transform this area into a **Green and Energy‑Driven Multimodal Hub**, active year‑round.
 
 ```mermaid
 graph TD
-    A[Piazzale Gipo Viani] --> B[Parcheggio Solare - Solar Carport]
-    A --> C[Spazi Pubblici e Sportivi]
-    A --> D[Corridoi Verdi Pedonali]
+    A[Gipo Viani Square] --> B[Solar Carport Parking]
+    A --> C[Public & Sports Spaces]
+    A --> D[Green Pedestrian Corridors]
     
-    B --> B1[Energia Pulita per lo Stadio]
-    B --> B2[Ricarica Veicoli Elettrici]
+    B --> B1[Clean Energy for the Stadium]
+    B --> B2[Electric Vehicle Charging]
     
-    C --> C1[Campi da Basket/Padel]
-    C --> C2[Kioschi e Ristoro]
+    C --> C1[Basket/Padel Courts]
+    C --> C2[Food & Beverage Kiosks]
     
-    D --> D1[Ombreggiamento e Comfort Termico]
-    D --> D2[Connessione Sicura Metro-Stadio]
+    D --> D1[Shading & Thermal Comfort]
+    D --> D2[Secure Metro‑Stadium Connection]
 ```
 
-## 2. I Pilastri del Progetto
+## 2. Project Pillars
 
-### A. Infrastruttura Energetica: Pensiline Fotovoltaiche (Solar Carports)
+### A. Energy Infrastructure: Photovoltaic Canopies (Solar Carports)
 
-* **Intervento:** Installazione di pensiline metalliche dotate di pannelli solari fotovoltaici sopra gli stalli di sosta del parcheggio.
-* **Benefici:**
-* **Generazione Energetica:** Produzione stimata di circa 3-5 MWp, in grado di alimentare lo Stadio Arechi durante gli eventi e costituire una CER (Comunità Energetica Rinnovabile) per il quartiere circostante ed il vicino ospedale.
-* **Comfort per la Sosta:** Ombreggiamento delle autovetture in sosta, riducendo drasticamente il calore accumulato dall'asfalto (albedo mitigato).
-* **E-mobility:** Integrazione di oltre 50 colonnine di ricarica rapida per veicoli elettrici, creando un grande hub di ricarica per la zona est di Salerno.
+* **Intervention:** Installation of metal canopies equipped with photovoltaic panels above the parking stalls.
+* **Benefits:**
+  * **Energy Generation:** Estimated 3–5 MWp, sufficient to power the Arechi Stadium during events and to form a Renewable Energy Community for the surrounding neighbourhood and nearby hospital.
+  * **Parking Comfort:** Shade for parked vehicles, dramatically reducing heat buildup on the asphalt (higher albedo).
+  * **E‑Mobility:** Integration of more than 50 fast‑charging stations for electric vehicles, creating a major charging hub for the eastern part of Salerno.
 
-### B. Parco Urbano per lo Sport e il Tempo Libero
+### B. Urban Park for Sport & Leisure
 
-* **Intervento:** De-pavimentazione di porzioni strategiche di asfalto per inserire pavimentazioni drenanti ed aree verdi attrezzate.
-* **Dotazioni previste:**
-* Creazione di un'area multisport accessibile gratuitamente ai cittadini (campi da basket 3x3, padel, area calisthenics).
-* Kioschi commerciali rimovibili con sedute all'aperto all'ombra delle alberature.
-* Un'arena all'aperto per piccoli eventi e cinema sotto le stelle nei mesi estivi.
+* **Intervention:** Depaving strategic portions of the asphalt to insert permeable pavements and equipped green areas.
+* **Provisions:**
+  * Creation of a free‑access multisport area (3x3 basket courts, padel, calisthenics zone).
+  * Removable commercial kiosks with outdoor seating shaded by planted trees.
+  * An open‑air arena for small events and summer star‑gazing cinema.
 
-### C. Connessione Pedonale Protetta (Green Corridor)
+### C. Protected Pedestrian Connection (Green Corridor)
 
-* **Intervento:** Creazione di un viale pedonale alberato diagonale che connette direttamente l'uscita della Stazione Metropolitana Arechi con l'ingresso principale della Tribuna dello Stadio.
-
-* **Caratteristiche:**
-* **Sicurezza:** Percorso separato fisicamente dal traffico veicolare e dai parcheggi tramite siepi e barriere verdi.
-* **Comfort:** Piantumazione di alberi a foglia caduca (es. Platani o Aceri) che offrono ombra in estate e lasciano passare il sole in inverno.
-* **Pavimentazione:** Materiali fotocatalitici chiari per ridurre l'assorbimento termico e catturare gli inquinanti atmosferici.
+* **Intervention:** Creation of a diagonal tree‑lined pedestrian avenue directly linking the exit of the Arechi Metro Station with the main entrance of the Stadium Tribune.
+* **Features:**
+  * **Safety:** Path physically separated from vehicular traffic and parking areas by hedges and green barriers.
+  * **Comfort:** Planting of deciduous trees (e.g., plane or maple) that provide shade in summer and allow sunlight in winter.
+  * **Pavement:** Light‑colored photocatalytic materials to reduce thermal absorption and capture atmospheric pollutants.
 
 ---
 
-## 3. Impatto Atteso
+## 3. Expected Impact
 
-1. **Riduzione dell'isola di calore:** Abbassamento stimato delle temperature superficiali al suolo da **46°C a 30°C** nelle aree riqualificate.
-
-2. **Transizione Ecologica:** Produzione di energia rinnovabile pulita a km zero, con riduzione delle emissioni di CO2.
-
-3. **Vivibilità:** Restituzione di uno spazio pubblico vitale alla cittadinanza salernitana, favorendo la socialità e lo sport.
+1. **Heat‑Island Reduction:** Estimated surface temperature drop from **46 °C to 30 °C** in the regenerated zones.
+2. **Ecological Transition:** Production of clean, zero‑km renewable energy, reducing CO₂ emissions.
+3. **Livability:** Restoring a vital public space for the citizens of Salerno, fostering social interaction and sport.
