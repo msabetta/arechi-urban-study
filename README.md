@@ -1,11 +1,25 @@
 # Arechi Urban Study
 
-Studio urbanistico del Piazzale Gipo Viani e Stadio Arechi (Salerno)
+This project is a comprehensive urban planning study of the Piazzale Gipo Viani and Stadio Arechi area in Salerno, Italy. It includes a 3D model of the area, analysis of mobility and public spaces, and proposals for urban requalification.
 
-Obiettivi:
-- modellazione 3D area
-- analisi mobilità e spazi pubblici
-- proposta di riqualificazione urbana
+
+![alt text](image.png)
+
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Data Sources](#data-sources)
+- [Contributing](#contributing)
+- [License](#license)
+
+
+Objectives:
+- 3D modeling of the area
+- Mobility and public space analysis
+- Urban requalification proposals
 
 ## Installation
 
@@ -20,6 +34,7 @@ pip install -r requirements.txt
 ## Usage
 
 The project is organized as follows:
+
 - `analysis/`: Python scripts for land‑use analysis, GIS processing, etc.
 - `scripts/`: Utility scripts such as 3D model generation.
 - `notebooks/`: Jupyter notebooks that run the full workflow.
@@ -27,6 +42,7 @@ The project is organized as follows:
 - `data/`: Raw OSM extracts and auxiliary datasets.
 
 To run the main notebook:
+
 ```bash
 jupyter lab notebooks/urban_analysis.ipynb
 ```

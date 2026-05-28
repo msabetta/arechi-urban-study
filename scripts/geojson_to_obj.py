@@ -7,7 +7,7 @@ from shapely.geometry import shape, mapping
 from shapely.ops import transform
 import pyproj
 
-def main(geojson_path: str, out_obj: str):
+def convert_geojson_to_obj(geojson_path: str, out_obj: str):
     # Carica GeoJSON
     with open(geojson_path, encoding="utf-8") as f:
         gj = json.load(f)
@@ -62,4 +62,4 @@ if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Uso: python geojson_to_obj.py <input.geojson> <output.obj>")
         sys.exit(1)
-    main(sys.argv[1], sys.argv[2])
+    convert_geojson_to_obj(sys.argv[1], sys.argv[2])

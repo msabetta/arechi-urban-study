@@ -3,7 +3,7 @@ import shapely
 import os
 import pandas as pd
 
-def main():
+def process_gis_data():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "..", "data", "raw", "osm")
     out_dir = os.path.join(base_dir, "..", "data", "processed")
@@ -96,4 +96,4 @@ def main():
         print(f"Errore durante l'elaborazione GIS: {e}")
 
 if __name__ == "__main__":
-    main()
+    process_gis_data()
