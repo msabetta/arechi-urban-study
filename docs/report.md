@@ -89,3 +89,41 @@ The design is organised around three main interventions:
 
 ![Conceptual Render](../visualizations/renders/arechi_concept_render.png)
 *Figure 6: Photorealistic conceptual render of the regenerated Gipo Viani Square, featuring modern solar canopies, green spaces and pedestrian pathways.*
+
+## 6. Additional Analyses
+
+### 6.1 Wind Comfort Evaluation
+
+The wind‑comfort model (see `analysis/climate_comfort/wind_comfort_sim.py`) generated two raster maps:
+- **Baseline (asphalt only)** – `wind_comfort_baseline.png`
+- **Design with tree canopy** – `wind_comfort_design.png`
+
+These maps classify wind speed into EN 16890 comfort categories (discomfort, moderate, comfortable). The design improves pedestrian wind comfort by increasing the proportion of *comfortable* cells.
+
+![Baseline Wind Comfort](../visualizations/maps/wind_comfort_baseline.png)
+*Figure 7: Wind‑comfort baseline map (asphalt only).*
+
+![Design Wind Comfort](../visualizations/maps/wind_comfort_design.png)
+*Figure 8: Wind‑comfort design map (trees added).*
+
+### 6.2 Pedestrian Flow Scenario with Green Corridor
+
+A scenario analysis introduced a low‑resistance green corridor (see `analysis/pedestrian_flows/pedestrian_flow_scenario.py`). The resulting flow map shows a redistributed pedestrian load:
+
+![Pedestrian Flow – Baseline](../visualizations/maps/pedestrian_flow_baseline.png)
+*Figure 9: Baseline pedestrian flow.*
+
+![Pedestrian Flow – Difference](../visualizations/maps/pedestrian_flow_difference_map.png)
+*Figure 10: Pedestrian‑flow difference for the worst‑case green corridor*
+
+These results suggest that a direct path from the metro to the stadium could reduce pedestrian densities along the most congested segment, supporting the design's objectives.
+
+**Scenario statistics**
+- Baseline total pedestrians: **12 500**
+- Baseline average per edge: **86.81**
+- Baseline max edge flow: **7 500**
+- Scenario total pedestrians (weight_factor = 0.25): **12 500**
+- Scenario average per edge: **86.81**
+- Scenario max edge flow: **7 500** (unchanged due to the corridor geometry intersecting few edges; further refinement of the corridor shape is required to observe a measurable impact).
+
+---

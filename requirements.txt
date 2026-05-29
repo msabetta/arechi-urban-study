@@ -3,3 +3,4 @@ geopandas
 shapely
 matplotlib
 pyproj
+rasterio

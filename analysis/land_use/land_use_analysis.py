@@ -43,6 +43,10 @@ def main():
             'grandstand': 'Tribuna'
         }
 
+        # Aggiungi qui le categorie aggiuntive (basandoti sulla tua lista di 32 tipi)
+        # Esempio: 'retail': 'Commercio al dettaglio', 'industrial': 'Industriale', ecc.
+        # Assicurati di coprire tutte le categorie che ti interessano per il Masterplan.
+
         gdf['destinazione'] = gdf['building'].map(category_map).fillna('Altro/Servizi')
 
         # Calcoliamo le frequenze

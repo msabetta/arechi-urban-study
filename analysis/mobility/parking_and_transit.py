@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import os
 from shapely.geometry import Point
 
+
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     project_dir = os.path.abspath(os.path.join(base_dir, "..", ".."))
