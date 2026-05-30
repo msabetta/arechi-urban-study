@@ -4,3 +4,6 @@ shapely
 matplotlib
 pyproj
 rasterio
+seaborn
+ipykernel
+jupyter

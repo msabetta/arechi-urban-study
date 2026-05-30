@@ -7,6 +7,11 @@ A comprehensive urban planning study of Piazzale Gipo Viani and Stadio Arechi ar
 - GIS‑based analyses and visualisations
 - Detailed concept design documentation
 
+
+![alt text](image.png)
+
+
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Installation](#installation)
@@ -63,17 +68,8 @@ All scripts accept a `--weight-factor` argument to tune the green‑corridor inf
 - `docs/references.md` – bibliography and software tools  
 - `docs/report.md` – full technical report with figures and results  
 
-## Contributing
-Contributions are welcome! Please read `CONTRIBUTING.md` for guidelines, open an issue, or submit a pull request.
-
-## License
-This project is licensed under the MIT License.
 
 
-This project is a comprehensive urban planning study of the Piazzale Gipo Viani and Stadio Arechi area in Salerno, Italy. It includes a 3D model of the area, analysis of mobility and public spaces, and proposals for urban requalification.
-
-
-![alt text](image.png)
 
 
 ## Table of Contents
@@ -123,9 +119,10 @@ jupyter lab notebooks/urban_analysis.ipynb
 - Local GIS layers for parking, stadium buffers, etc.
 
 ## Contributing
-
-Feel free to open issues or submit pull requests. Follow the contribution guidelines in `CONTRIBUTING.md`.
+Contributions are welcome! Please read `CONTRIBUTING.md` for guidelines, open an issue, or submit a pull request.
 
 ## License
-
 This project is licensed under the MIT License.
+
+
+This project is a comprehensive urban planning study of the Piazzale Gipo Viani and Stadio Arechi area in Salerno, Italy. It includes a 3D model of the area, analysis of mobility and public spaces, and proposals for urban requalification.
